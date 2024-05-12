@@ -6,3 +6,7 @@ env
 
 # DuckDB database files
 *.db
+
+
+# Temporary files
+*.pyc

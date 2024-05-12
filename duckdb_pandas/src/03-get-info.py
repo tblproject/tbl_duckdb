@@ -15,4 +15,4 @@ if __name__=="__main__":
     
     # Get 
     conn.sql("SELECT DISTINCT(YEAR(Periodo)) FROM bronze.nacional").show()
-    conn.sql("SELECT SUM(Porcentaje) FROM bronze.nacional").show()
+    conn.sql("SELECT Periodo, Porcentaje FROM bronze.nacional ORDER BY Periodo").show()
