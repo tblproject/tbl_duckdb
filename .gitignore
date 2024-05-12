@@ -1,0 +1,8 @@
+# Environments
+env
+
+# File formats
+*.csv
+
+# DuckDB database files
+*.db

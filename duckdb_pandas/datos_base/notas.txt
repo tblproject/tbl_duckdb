@@ -1,0 +1,7 @@
+-- Se toman como base los datos de:
+https://datos.gob.es/es/catalogo/ea0010587-mapa-movimiento-de-personas-y-personas-por-cccaa-provincias-y-areas-de-movilidad-mmov-identificador-api-48191
+
+-- Para obtener los datos de base se debe lanzar el siguiente comando dentro de este directorio:
+curl -lfO https://www.ine.es/jaxiT3/files/t/csv_bdsc/48191.csv
+
+
