@@ -10,3 +10,9 @@ env
 
 # Temporary files
 *.pyc
+
+# parquet files
+*.parquet
+
+# test files and folders
+test*
